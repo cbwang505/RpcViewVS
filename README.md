@@ -16,7 +16,7 @@ RpcView移植vs2013项目,去除rpcrt4.dll文件版本验证,支持win7x64和200
 
 #### 使用说明
 
-1. 不同操作操作系统版本,替换项目RpcCore和RpcCoreNavte为下RpcInternals.h为以下文件,分别为64和32版本,并更新引用路径
+根据不同操作操作系统版本,替换项目RpcCore和RpcCoreNative的RpcInternals.h为以下文件,分别为64和32版本,并更新引用路径
 
 ```
 MyRpcView\MyRpcView\RpcViewMain\RpcCore\RpcCore1_32bits\RpcInternals.h for Windows XP
