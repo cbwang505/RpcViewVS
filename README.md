@@ -30,5 +30,7 @@ MyRpcView\MyRpcView\RpcViewMain\RpcCore\RpcCore4_32bits\RpcInternals.h for Windo
 
 MyRpcView\MyRpcView\RpcViewMain\RpcCore\RpcCore4_64bits\RpcInternals.h for Windows 8.1 and 10 x64
 
-下载地址https://gitee.com/cbwang505/RpcViewMSVS里面有release发布欢迎fork
+项目release里面有发布下载地址欢迎fork
 
+
+![](https://i.imgur.com/9qVs6hd.png)
