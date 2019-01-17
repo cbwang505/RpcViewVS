@@ -110,7 +110,7 @@ VOID* __fastcall RpcCoreInit(BOOL bForce)
     }
 	pRpcCoreManager->pNativeCoreCtxt = pRpcCoreManager->pNativeCore->RpcCoreInitFn(bForce);
 #ifdef _WIN64
-	if (!LoadCoreEngine(&pRpcCoreManager->pWow64Core, &pRpcCoreManager->pWow64CoreCtxt, FALSE, bForce))
+	if (!LoadCoreEngine(&pRpcCoreManager->pWow64Core, &pRpcCoreManager->pWow64CoreCtxt, TRUE, bForce))
     {
         OS_FREE(pRpcCoreManager);
         return NULL;

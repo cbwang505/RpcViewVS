@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RpcCore", "RpcCore\RpcCore.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RpcDecompiler", "RpcDecompiler\RpcDecompiler.vcxproj", "{CA0A0DF5-5C36-4BAF-A372-5BDF735CD1D3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RpcCoreNative", "RpcCoreNative\RpcCoreNative.vcxproj", "{E1F25361-5331-4298-BDFC-04C4CCBF71C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -51,6 +53,17 @@ Global
 		{CA0A0DF5-5C36-4BAF-A372-5BDF735CD1D3}.Release|Win32.ActiveCfg = Release|Win32
 		{CA0A0DF5-5C36-4BAF-A372-5BDF735CD1D3}.Release|Win32.Build.0 = Release|Win32
 		{CA0A0DF5-5C36-4BAF-A372-5BDF735CD1D3}.Release|x64.ActiveCfg = Release|Win32
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Debug|Win32.Build.0 = Debug|Win32
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Debug|x64.ActiveCfg = Debug|x64
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Debug|x64.Build.0 = Debug|x64
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Release|Win32.ActiveCfg = Release|Win32
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Release|Win32.Build.0 = Release|Win32
+		{E1F25361-5331-4298-BDFC-04C4CCBF71C5}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
