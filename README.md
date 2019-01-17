@@ -1,4 +1,6 @@
-RpcViewMSVS
+
+
+> Rpc接口反编译工具RpcViewMSVS
 
 #### 介绍
 RpcView移植vs2013项目,去除rpcrt4.dll文件版本验证,支持win7x64和2008r2x64操作系统,采用qt5.6版本,已发布64位release版本
@@ -14,7 +16,8 @@ RpcView移植vs2013项目,去除rpcrt4.dll文件版本验证,支持win7x64和200
 
 #### 使用说明
 
-1. 不同操作操作系统版本,替换项目RpcCore下RpcInternals.h为以下文件
+1. 不同操作操作系统版本,替换项目RpcCore和RpcCoreNavte为下RpcInternals.h为以下文件,分别为64和32版本,并更新引用路径
+
 ```
 MyRpcView\MyRpcView\RpcViewMain\RpcCore\RpcCore1_32bits\RpcInternals.h for Windows XP
 
@@ -30,7 +33,11 @@ MyRpcView\MyRpcView\RpcViewMain\RpcCore\RpcCore4_32bits\RpcInternals.h for Windo
 
 MyRpcView\MyRpcView\RpcViewMain\RpcCore\RpcCore4_64bits\RpcInternals.h for Windows 8.1 and 10 x64
 ```
-项目release里面有发布下载地址欢迎fork
-
 
 ![](https://i.imgur.com/9qVs6hd.png)
+
+> 引用
+
+[下载地址,项目里面有release发布欢迎fork](https://gitee.com/cbwang505/RpcViewMSVS)
+
+[原git项目,作者silverf0x](https://github.com/silverf0x/RpcView)
